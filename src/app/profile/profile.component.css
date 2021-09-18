@@ -1,0 +1,83 @@
+#profile-picture {
+    max-height: 25%;
+    max-width: 25%;
+    margin-top: 5%;
+    border-radius: 50%;
+    border: 2px rgb(226, 214, 214);
+    -moz-box-shadow: 0px 6px 5px rgb(231, 39, 39);
+    -webkit-box-shadow: 0px 6px 5px rgb(224, 24, 24);
+    box-shadow: 0px 6px 5px #11101d;
+}
+
+.whereabouts {
+    margin-top: 8%;
+}
+
+.social {
+    margin-top: 15%;
+}
+
+.btn {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50%;
+    height: 5%;
+    font-size: xx-large;
+}
+
+#angular-logo {
+    font-size: 1.5rem;
+    position: absolute;
+    color: rgb(131, 1, 1);
+}
+
+@media only screen and (max-width: 1366px) {
+
+    .whereabouts {
+        margin-top: 5%;
+    }
+
+    .social { 
+        margin-top: 5%;
+    }
+
+    .btn {
+        height: 7%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .whereabouts {
+        margin-top: 5%;
+    }
+
+    .social { 
+        margin-top: 5%;
+    }
+    
+    .btn {
+        height: 5%;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .social-icon {
+        margin-top: 5%;
+    }
+    .btn {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #profile-picture {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .btn {
+        height: 7%;
+    }
+}
