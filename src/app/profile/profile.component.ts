@@ -25,4 +25,8 @@ export class ProfileComponent implements OnInit {
     window.open("mailto:soubhagyasahoo065@gmail.com","_blank");
   }
 
+  openMaps() {
+    window.open("https://www.google.com/maps/search/?api=1&query=Bhubaneswar","_blank");
+  }
+
 }

@@ -21,7 +21,7 @@ export class EducationComponent implements OnInit {
         course: "Master in Computer Applications"
       },
       {
-        institute: "Govt. College(Autonomous)",
+        institute: "Govt. College (Autonomous)",
         place: "Angul",
         year: "2017",
         course: "BSc. Computer Science"

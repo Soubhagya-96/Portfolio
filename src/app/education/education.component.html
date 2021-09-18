@@ -1,3 +1,15 @@
 <div class="container">
-    
+    <div class="data-box pt-5">
+        <div *ngFor="let data of education" class="items">
+            <span>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <h4>{{ data.course }}</h4>
+            </span>
+            <p>
+                <i class="fa fa-map-pin" aria-hidden="true"></i> 
+                {{ data.place }}, <i>{{ data.year }}</i>
+            </p>
+            <h6>{{ data.institute }}</h6>
+        </div>
+    </div>
 </div>
