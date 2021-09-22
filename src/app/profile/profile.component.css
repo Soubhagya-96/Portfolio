@@ -9,6 +9,10 @@
     box-shadow: 0px 6px 5px #11101d;
 }
 
+.animate__animated {
+    --animate-duration: 2s;
+}
+
 .whereabouts {
     margin-top: 8%;
 }

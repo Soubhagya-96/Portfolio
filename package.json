@@ -21,6 +21,7 @@
     "@angular/platform-browser": "^11.2.14",
     "@angular/platform-browser-dynamic": "^11.2.14",
     "@angular/router": "^11.2.14",
+    "animate.css": "^4.1.1",
     "ng-circle-progress": "^1.6.0",
     "ng-snotify": "^9.0.1",
     "ngx-spinner": "^12.0.0",
